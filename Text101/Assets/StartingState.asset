@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c35fa5a4a95fe294587015eb2e9ced87, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "Festers. Everywhere. Armed mostly with gas-powered rock flingers. \nAt
+    least 10 of them guarding the hangar door. Typical.\n\nCould try punching my way
+    through. Or sneaking the long way to the emergency exit.\n\nWhat should I do?\n1.
+    Take them head on - rush the 10 guards.\n2. Sneak my way to the emergency exit."
+  nextStates:
+  - {fileID: 11400000, guid: 427d74eca5780ff4bb5baa5a468318c4, type: 2}
+  - {fileID: 11400000, guid: f243c08f6943f0c4cbd424970d9e86e7, type: 2}
